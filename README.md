@@ -8,6 +8,8 @@ given in 2026 by [DataTalks.Club](https://github.com/DataTalksClub)
 
 ## 02-environment
 
+### `uv` installation and how to use it
+
 `uv` is a very fast python package and project manager, written in Rust 
 and it is a more convenient tool to replace for example `pip` `pip-tools` `pipx`
 `poetry` `pyenv` `twine` `virtualenv`. 
