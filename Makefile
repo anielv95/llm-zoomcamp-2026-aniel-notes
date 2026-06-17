@@ -5,3 +5,11 @@ install:
 		uv init &&\
 		uv add -r requirements.txt &&\
 		uv run main.py
+
+jupyter:
+	cd /gh &&\
+		jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+
+install-jupyter:
+	make install &&\
+		make jupyter
