@@ -7,8 +7,7 @@ install:
 		uv run main.py
 
 jupyter:
-	cd /gh &&\
-		jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+	uv run jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
 
 install-jupyter:
 	make install &&\
