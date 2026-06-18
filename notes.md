@@ -67,7 +67,7 @@ all the dependencies we have added and a `uv.lock` file. We run:
     └── uv.lock
     ```
 
-7. run jupyterlab:
+# run jupyterlab:
 
     1. To run "/bin/bash" in container that it is being executed run the next:
 
@@ -76,3 +76,7 @@ all the dependencies we have added and a `uv.lock` file. We run:
     2. To run jupyterlab inside a container or in a EC2 instance using `uv`:
 
         `uv run jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root`
+
+# Next steps:
+
+1. Add payment details to use openai models and test the api is working correctly
