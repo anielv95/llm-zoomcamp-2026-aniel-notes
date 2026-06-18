@@ -1,14 +1,17 @@
 install:
-	pip install --upgrade pip &&\
-		pip install uv &&\
+	make install-uv &&\
 		uv python install 3.15 &&\
 		uv init &&\
 		uv add -r requirements.txt &&\
 		uv run main.py
 
+install-uv:
+	pip install --upgrade pip &&\
+		pip install uv
+
 jupyter:
 	uv run jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
 
 install-jupyter:
-	make install &&\
+	make install-uv &&\
 		make jupyter
