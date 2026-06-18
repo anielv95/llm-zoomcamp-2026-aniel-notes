@@ -1,3 +1,5 @@
-requests
-jupyterlab
 gitsource
+jupyterlab
+openai
+python-dotenv
+requests
