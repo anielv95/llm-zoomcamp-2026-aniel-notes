@@ -11,9 +11,9 @@ To start using uv we need to follow simple steps:
 
     `python -m pip install uv`
 
-2. (Optional) install a specific python version, in this case 3.15:
+2. (Optional) install a specific python version, in this case 3.14:
 
-    `uv python install 3.15`
+    `uv python install 3.14`
 
     if you want to install the latest version you can run:
 
