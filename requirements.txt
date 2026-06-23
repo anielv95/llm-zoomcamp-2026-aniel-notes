@@ -1,5 +1,6 @@
 gitsource
 jupyterlab
+minsearch
 openai
 python-dotenv
 requests
