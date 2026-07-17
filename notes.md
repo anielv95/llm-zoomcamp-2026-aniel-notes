@@ -2,15 +2,15 @@
 
 Details can be seen in the [01-agentic-rag](README.md) section of the [README.md](README.md) file.
 
-# run jupyterlab:
+# Run jupyterlab:
 
-    1. To run "/bin/bash" in container that it is being executed run the next:
+1. To run "/bin/bash" in container that it is being executed run the next:
 
-        `docker exec -it <container_id> sh -c "/bin/bash"`
-        
-    2. To run jupyterlab inside a container or in a EC2 instance using `uv`:
+    `docker exec -it <container_id> sh -c "/bin/bash"`
+    
+2. To run jupyterlab inside a container or in a EC2 instance using `uv`:
 
-        `uv run jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root`
+    `uv run jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root`
     
 # Build the Docker image with some arguments.
 
