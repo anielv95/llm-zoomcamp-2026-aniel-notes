@@ -3,6 +3,9 @@ name: Build Docker image
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - Makefile
+      - requirements.txt
 
 jobs:
   push_to_registry:
