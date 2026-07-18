@@ -25,3 +25,4 @@ Details can be seen in the [01-agentic-rag](README.md) section of the [README.md
 5. Update Next steps in notes.md
 6. Add notes to build a docker image with arguments
 7. Create CI/CD workflow
+8. Answer question 3 from the course
